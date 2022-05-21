@@ -1,0 +1,25 @@
+.report{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+}
+
+.report__img{
+	width: 75px;
+	height: 75px;
+	margin-bottom: 42px;
+}
+
+.report__img img{
+	display: block;
+	width: 100%;
+}
+
+.report__text{
+	text-align: center;
+	color: #808080;
+	font-size: 22px;
+	line-height: 140%;
+}

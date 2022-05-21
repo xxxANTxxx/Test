@@ -1,0 +1,26 @@
+.header {
+	background: #0064eb;
+	display: flex;
+	padding: 16px 20px;
+}
+
+.header__img {
+	margin-right: 22px;
+}
+
+.header__input {
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	max-width: 500px;
+	min-width: 0;
+	flex-grow: 1;
+	padding: 8px 8px 8px 44px;
+	background: #fff url(../../images/loupe.svg) 19px 50% no-repeat;
+}
+
+@media (min-width: 576px) {
+	.header__wrapper {
+		padding: 16px 41px;
+	}
+}

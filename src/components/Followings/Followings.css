@@ -1,0 +1,18 @@
+.followings{
+	display: flex;
+	margin-left: 20px;
+	align-items: center;
+}
+
+.followings:first-child{
+	margin-left: 0;
+}
+
+.followings__ico{
+	margin-right: 10px;
+	height: 16px;
+}
+
+.followings__text{
+	white-space: nowrap;
+}

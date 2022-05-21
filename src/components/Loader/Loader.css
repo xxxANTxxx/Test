@@ -1,0 +1,37 @@
+.loader{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+}
+
+.loader__icon{
+	position: relative;
+	width: 75px;
+	height: 75px;
+	background: #000;
+	background: linear-gradient(#9890e3, #b1f4cf);
+	border-radius: 50%;
+	animation: loader 1s linear infinite normal;
+}
+
+@keyframes loader{
+		0%{
+			transform: rotate(0deg);
+		}
+		100%{
+			transform: rotate(360deg);
+		}
+	}
+
+.loader__icon::before{
+	content: '';
+	width: 47px;
+	height: 47px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}

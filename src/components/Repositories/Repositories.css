@@ -1,0 +1,13 @@
+.repositories {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+.repositories__title {
+	font-size: 32px;
+	margin-bottom: 29px;
+}
+.repositories__content {
+	display: flex;
+	flex-direction: column;
+}
